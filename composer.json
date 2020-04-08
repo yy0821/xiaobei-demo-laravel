@@ -1,0 +1,24 @@
+{
+    "name": "xiaobei\/demo-laravel",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaobei",
+            "email": "570650116@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xiaobei\\DemoLaravel\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Xiaobei\\DemoLaravel\\DemoServiceProvide"
+            ]
+        }
+    }
+}
