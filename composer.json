@@ -1,7 +1,8 @@
 {
     "name": "xiaobei\/demo-laravel",
-    "description": "Package description here.",
+    "description": "方便与laravel框架中对于某一个类的方法调试；类似于单元测试",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "xiaobei",
